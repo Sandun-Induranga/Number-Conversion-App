@@ -1,11 +1,12 @@
 $("#txtNumber").on("keypress", function(e) {
     if ($("#cmbInput").val() == 1){
-        switch ($("#txtNumber").val()) {
-            case value:
-                
+        switch ($("#cmbResult").val()) {
+            case "1":
+                alert("Decimal")
                 break;
         
-            default:
+            case "2":
+                alert("Binary")
                 break;
         }
     }
