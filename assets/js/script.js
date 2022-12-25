@@ -23,7 +23,7 @@ $("#txtNumber").on("keyup", function() {
     
         case "2":
 
-            let res = parseInt($("#txtNumber").val(), 2);
+            var res = parseInt($("#txtNumber").val(), 2);
 
             switch ($("#cmbResult").val()) {
 
@@ -48,7 +48,7 @@ $("#txtNumber").on("keyup", function() {
 
         case "3":
 
-        res = parseInt($("#txtNumber").val(), 8);
+        var res = parseInt($("#txtNumber").val(), 8);
 
         switch ($("#cmbResult").val()) {
 
@@ -72,8 +72,9 @@ $("#txtNumber").on("keyup", function() {
         break;
 
         case "4":
+            alert("come");
 
-        res = parseInt($("#txtNumber").val(), 16);
+        var res = parseInt($("#txtNumber").val(), 16);
 
         switch ($("#cmbResult").val()) {
 
