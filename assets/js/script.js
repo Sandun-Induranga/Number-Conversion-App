@@ -1,5 +1,13 @@
 $("#txtNumber").on("keyup", function() {
+    calculate();
+});
 
+$("#cmbInput, #cmbResult").change(function() {
+    calculate();
+});
+
+
+function calculate(){
     switch ($("#cmbInput").val()) {
         case "1":
             switch ($("#cmbResult").val()) {
@@ -16,6 +24,7 @@ $("#txtNumber").on("keyup", function() {
                     break;
     
                 case "4":
+                    const hex = $("#txtNumber").val().toString(16);
                     $("#txtResult").val(parseInt($("#txtNumber").val()).toString(16));
                     break;
             }
@@ -72,7 +81,6 @@ $("#txtNumber").on("keyup", function() {
         break;
 
         case "4":
-            alert("come");
 
         var res = parseInt($("#txtNumber").val(), 16);
 
@@ -96,6 +104,5 @@ $("#txtNumber").on("keyup", function() {
         }
 
         break;
+    }
 }
-
-});
