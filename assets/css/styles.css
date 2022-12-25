@@ -6,8 +6,8 @@ body {
 }
 
 main {
-    width: 550px;
-    height: 450px;
+    width: 750px;
+    height: 650px;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
     border-radius: 20px;
