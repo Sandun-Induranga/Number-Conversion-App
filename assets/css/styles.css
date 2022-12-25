@@ -2,4 +2,13 @@ body{
     background: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
+    height: 97.5vh;
+}
+
+main{
+    width: 450px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
 }
