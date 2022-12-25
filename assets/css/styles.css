@@ -21,3 +21,8 @@ input, select {
 input{
     height: 50px;
 }
+
+p{
+    position: absolute;
+    bottom: 0;
+}
