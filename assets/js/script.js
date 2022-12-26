@@ -24,7 +24,6 @@ function calculate(){
                     break;
     
                 case "4":
-                    const hex = $("#txtNumber").val().toString(16);
                     $("#txtResult").val(parseInt($("#txtNumber").val()).toString(16));
                     break;
             }
